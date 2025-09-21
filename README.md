@@ -57,7 +57,7 @@ Akan berjalan di: http://localhost:8080
 
 Coming soon 🚧
 
-### 3️⃣ Admin Panel (Next.js)
+### 3️⃣ Client (Flutter)
 
 Coming soon 🚧
 
