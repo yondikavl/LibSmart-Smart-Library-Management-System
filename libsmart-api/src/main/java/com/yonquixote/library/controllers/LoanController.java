@@ -2,6 +2,7 @@ package com.yonquixote.library.controllers;
 
 import java.util.List;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import com.yonquixote.library.services.LoanService;
 
 @RestController
 @RequestMapping("/loans")
+@CrossOrigin(origins = "http://localhost:3000")
 public class LoanController {
 
     private final LoanService service;
